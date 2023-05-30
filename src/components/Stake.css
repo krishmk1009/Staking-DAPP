@@ -1,0 +1,18 @@
+.main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 700px;
+    margin: auto;
+    margin-top :20px;
+    margin-bottom :20px;
+}
+
+
+.address {
+    margin: 2px;
+}
+
+.bal {
+    margin-left: 20px;
+}

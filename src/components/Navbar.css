@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-nav li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.navbar-toggler {
+  float: right;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.navbar-toggler span {
+  cursor: pointer;
+  color: #ccc;
+}
+
+.navbar-collapse.collapse {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    float: none;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
+
+.mint-btn {
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+}
+
+.bal-btn {
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  color: white;
+}
